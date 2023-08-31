@@ -5,9 +5,9 @@ import './assets/index.css'  // CSS FILE
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Contact from './pages/Contact';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';    
+import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
     {
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         },
         {
           path: '/Contact',
-          element: <Contact/>,
-        },
+          element: <Contact />
+        }
       ],
     },
   ]);
