@@ -4,13 +4,25 @@ export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [emailError, setEmailError] = useState('');
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    alert(`Success, ${name}! This form doesn't work though :/`);
-    setName('');
-    setEmail('');
-    setMessage('');
+    
+    if (!validateEmail(email)) {
+      setEmailError('Invalid email address');
+    } else {
+      setEmailError('');
+      alert(`Success, ${name}! This form doesn't work though :/`);
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
+  };
+
+  const validateEmail = (email) => {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
   };
 
   const inputStyles = {
@@ -19,6 +31,10 @@ export default function Contact() {
     border: '1px solid #ccc',
     borderRadius: '10px',
     width: '100%',
+  };
+
+  const errorStyle = {
+    color: 'red',
   };
 
   const buttonStyle = {
@@ -30,13 +46,15 @@ export default function Contact() {
     cursor: 'pointer',
     fontWeight: '900',
     fontSize: '15px',
-    textAlign: 'center'
+    textAlign: 'center',
   };
 
   return (
     <div style={{ textAlign: 'center', margin: '50px auto', padding: '20px' }}>
-      <h1>Contact Me!</h1>
-      <h3 style={{marginTop: '20px', marginBottom: '30px'}}>I would love to answer any questions about my work</h3>
+      <h1>Contact Me !</h1>
+      <h3 style={{ marginTop: '20px', marginBottom: '30px' }}>
+        I would love to connect and answer any questions you might have
+      </h3>
       <form
         style={{ display: 'flex', flexDirection: 'column', maxWidth: '400px', margin: '0 auto' }}
         onSubmit={handleFormSubmit}
@@ -57,6 +75,7 @@ export default function Contact() {
           type="text"
           placeholder="JohnDo@gmail.com"
         />
+        {emailError && <p style={errorStyle}>{emailError}</p>}
         <textarea
           style={inputStyles}
           value={message}
@@ -71,10 +90,3 @@ export default function Contact() {
     </div>
   );
 }
-
-
-
-
-
-
-
