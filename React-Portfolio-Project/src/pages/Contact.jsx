@@ -17,23 +17,26 @@ export default function Contact() {
     padding: '10px',
     marginBottom: '15px',
     border: '1px solid #ccc',
-    borderRadius: '5px',
+    borderRadius: '10px',
     width: '100%',
   };
 
-  const buttonStyles = {
+  const buttonStyle = {
     padding: '10px 20px',
-    backgroundColor: '#007bff',
+    backgroundColor: '#8CBCFF',
     color: 'white',
     border: 'none',
-    borderRadius: '5px',
+    borderRadius: '10px',
     cursor: 'pointer',
+    fontWeight: '900',
+    fontSize: '15px',
+    textAlign: 'center'
   };
 
   return (
     <div style={{ textAlign: 'center', margin: '50px auto', padding: '20px' }}>
       <h1>Contact Me!</h1>
-      <h4>I would love to answer any questions about my work</h4>
+      <h3 style={{marginTop: '20px', marginBottom: '30px'}}>I would love to answer any questions about my work</h3>
       <form
         style={{ display: 'flex', flexDirection: 'column', maxWidth: '400px', margin: '0 auto' }}
         onSubmit={handleFormSubmit}
@@ -59,9 +62,9 @@ export default function Contact() {
           value={message}
           name="message"
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Message goes here"
+          placeholder="Send me a message!"
         />
-        <button style={buttonStyles} type="submit">
+        <button style={buttonStyle} type="submit">
           Submit
         </button>
       </form>
