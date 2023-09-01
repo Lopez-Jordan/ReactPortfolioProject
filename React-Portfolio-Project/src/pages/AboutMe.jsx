@@ -13,7 +13,7 @@ export default function About() {
     return (
       <>
         <div style={mainDiv}>
-          <h1 style={{marginTop: '30px', marginBottom: '30px'}}>Learn About Me !</h1>
+          <h1 style={{marginTop: '30px', marginBottom: '30px'}}>Who Is Jordan Lopez?</h1>
           <div style={secondDiv}>
             <img style={{height: '250px', width: 'auto', borderRadius: '20px', marginRight: '50px'}} src="/me.png" alt="picture of me" />
             <p>
