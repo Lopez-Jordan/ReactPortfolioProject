@@ -3,7 +3,7 @@
 
 # React Portfolio Website
 
-Link to the deployed app: 
+Link to the deployed app: https://friendly-belekoy-035086.netlify.app
 
 <img src="./public/screenshotNew.png" height="400px">
 
