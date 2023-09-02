@@ -5,7 +5,7 @@
 
 Link to the deployed app: 
 
-<img src="./screenshotNew.png" height="400px">
+<img src="./public/screenshotNew.png" height="400px">
 
 ## Description
 This is my first project using React! With this site, you can learn about who I am, my skills, projects, and even contact me!
