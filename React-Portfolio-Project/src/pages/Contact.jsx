@@ -47,6 +47,7 @@ export default function Contact() {
     fontWeight: '900',
     fontSize: '15px',
     textAlign: 'center',
+    boxShadow: '10px 10px 7px black'
   };
 
   return (

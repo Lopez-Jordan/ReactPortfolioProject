@@ -6,7 +6,7 @@ function Navbar() {
     justifyContent: 'end',
     backgroundColor: 'white',
     listStyle: 'none',
-    padding: '20px'
+    padding: '20px',
   };
 
   const linkStyleOne = {

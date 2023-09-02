@@ -4,25 +4,29 @@ import { useState } from 'react';
 export default function Footer() {
 
   const iconStyle = {
-    fontSize: '50px',
-    color: '#8CBCFF',
+    fontSize: '40px',
+    color: 'white',
     transition: 'color 0.5s ease',
     margin: '0 70px', // Margin on each side
     cursor: 'pointer', // Show cursor pointer on hover
+    float: 'right',
+    backgroundColor:'black',
+    padding: '10px',
+    borderRadius: '10px',
+    zIndex: '9'
   };
 
   const iconHoverStyle = {
-    color: 'white', // Color on hover
+    color: '#8CBCFF', // Color on hover
   };
 
   const footerStyles = {
     bottom: '0',
     position: 'fixed',
-    display: 'flex',
-    justifyContent: 'center', // Center icons horizontally
     alignItems: 'center', // Center icons vertically
     padding: '40px',
     width: '100%',
+    zIndex: '-1'
   };
   const [hoveredIcon, setHoveredIcon] = useState(null);
 

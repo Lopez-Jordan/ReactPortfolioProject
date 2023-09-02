@@ -13,16 +13,14 @@ export default function About() {
     return (
       <>
         <div style={mainDiv}>
-          <h1 style={{marginTop: '30px', marginBottom: '30px'}}>Who Is Jordan Lopez?</h1>
+          <h1 style={{marginTop: '30px', marginBottom: '30px'}}>Hi, I'm Jordan Lopez !</h1>
           <div style={secondDiv}>
             <img style={{height: '250px', width: 'auto', borderRadius: '20px', marginRight: '50px'}} src="/me.png" alt="picture of me" />
-            <p>
-              Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-              Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-              mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-              lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-              imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-              in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+            <p style={{color: 'white', letterSpacing: '0px', fontSize: '18px'}}>
+            I'm a dedicated and adaptable Junior Web Developer with a background in Economics and Mathematics
+            who is enthusiastic about creating user-centered web experiences using HTML, CSS, and JavaScript.
+            I am eager to enhance proficiency in both front-end and back-end development while using my skilled problem-solving abilities.
+            At this point in my coding journey, I am ready to bring creativity and analytical abilities to a dynamic development team.
             </p>
           </div>
         </div>
