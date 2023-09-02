@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
-Currently, two official plugins are available:
+# React Portfolio Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link to the deployed app: 
+
+<img src="./screenshotNew.png" height="400px">
+
+## Description
+This is my first project using React! With this site, you can learn about who I am, my skills, projects, and even contact me!
+For this site, I used `React Browser Router` to control the url endpoints and React Hooks like `UseEffect` and `UseState` for added functionality.
+
+## Installation
+To install on your own machine, simply clone down my repo, run `npm install` at the root directory, then run `npm start` in order to start the client server!
+
+
+## License
+This application is covered under the MIT license.
+
+## Questions
+For questions about the project, you can reach me via:
+- GitHub: [Lopez-Jordan](https://github.com/Lopez-Jordan)
+- Email: jordanlopezemail@gmail.com
+    
