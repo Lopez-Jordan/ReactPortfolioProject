@@ -18,6 +18,7 @@ export default function Contact() {
       setEmail('');
       setMessage('');
     }
+    alert('this form doesnt actually work :( please reach out to me via email: jordanlopezemail@gmail.com')
   };
 
   const validateEmail = (email) => {

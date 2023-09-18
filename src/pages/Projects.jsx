@@ -17,10 +17,10 @@ export default function Projects() {
       <h1 style={{ marginTop: '30px' }}>Check Out My Projects !</h1>
       <div style={cardContainer}>
         <ProjectCard
-          name="Surf Report"
-          deployed="https://surf-report-app-7b1dc82c323b.herokuapp.com/"
-          repo="https://github.com/Lopez-Jordan/Surf-Report"
-          imagePath="/surfReport.png"
+          name="forumZ"
+          deployed="https://forumz-090c0b5b4bff.herokuapp.com/"
+          repo="https://github.com/Lopez-Jordan/forumZ"
+          imagePath="/forumZ.png"
         />
         <ProjectCard
           name="Crypto Portfolio"
@@ -52,7 +52,12 @@ export default function Projects() {
           repo="https://github.com/Lopez-Jordan/social-network-background"
           imagePath="/demo.png"
         />
-
+        <ProjectCard
+          name="Surf Report"
+          deployed="https://surf-report-app-7b1dc82c323b.herokuapp.com/"
+          repo="https://github.com/Lopez-Jordan/Surf-Report"
+          imagePath="/surfReport.png"
+        />
       </div>
     </div>
   );

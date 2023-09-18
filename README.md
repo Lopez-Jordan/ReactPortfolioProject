@@ -8,7 +8,8 @@ Link to the deployed app: https://friendly-belekoy-035086.netlify.app
 <img src="./public/screenshotNew.png" height="400px">
 
 ## Description
-This is my first project using React! With this site, you can learn about who I am, my skills, projects, and even contact me!
+This is my first project using React! With this site, you can learn about who I am, my skills, projects, and even contact me! (doesn't currently work)
+<br>
 For this site, I used `React Browser Router` to control the url endpoints and React Hooks like `UseEffect` and `UseState` for added functionality.
 
 ## Installation
