@@ -29,6 +29,12 @@ export default function Projects() {
           imagePath="/crypto.png"
         />
         <ProjectCard
+          name="SQL project"
+          deployed="https://github.com/Lopez-Jordan/Employee-Tracker"
+          repo="https://github.com/Lopez-Jordan/Employee-Tracker"
+          imagePath="/employeeTracker.png"
+        />
+        <ProjectCard
           name="Weather Report"
           deployed="https://lopez-jordan.github.io/weather-app/"
           repo="https://github.com/Lopez-Jordan/weather-app"
